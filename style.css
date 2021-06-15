@@ -1,0 +1,614 @@
+/* fonts*/
+
+@font-face{
+    font-family: CodaCaption-ExtraBold;
+    src:url(image/fonts/CodaCaption-ExtraBold.ttf);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family:CodaCaption-ExtraBold ;
+}
+
+/*  body  */
+
+body{
+    margin: 0;
+    overflow-x:hidden ;
+}
+
+.uni-padding{
+    padding: 0 7%;
+}
+
+
+/* topbar */
+
+#topbar{
+    background-color: #2c3e50;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+
+#toll{
+    float: left;
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+#social-media{
+    float: right;
+}
+
+.fab{
+    background-color: #f8f3f9;
+    color: #576574;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-facebook-f{
+    padding: 7px 10px;
+}
+ 
+.fa-whatsapp{
+   padding: 7px 10px;
+}
+ 
+.fa-instagram{
+     padding: 7px 10px;
+}
+
+.fa-twitter{
+    padding: 7px 10px;
+}
+
+/* logo bar */
+
+#logo img{
+  width: 130px;
+  margin: 25px 0px;
+}
+
+/* menu bar */
+
+#menu-bar{
+    background-color: #ee5352;
+}
+
+#menu-bar ul{
+    margin: 0px;
+    padding: 0;
+}
+
+#menu-bar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right:40px ;
+}
+
+#menu-bar ul li a{
+    color:#f8f3f9 ;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* banner */
+
+#banner{
+    background-image: url(image/banner11.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: rgba(245, 245, 245, 0.836);
+   flex-direction: column;
+   overflow: auto;
+}
+
+#banner h1{
+    font-size: 65px;
+    padding-top: 50px;
+    float: left;
+    margin: 0px;
+}
+
+
+/* goa information */
+
+#information h1{
+   font-size: 40px;
+   text-align: center;
+   color: #ee5352;
+}
+
+#information p{
+    font-size: 18px;
+    word-spacing: 8px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+#information p::first-letter{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* read more and read less button */
+
+#more , #more1{
+   display: none;
+}
+
+
+button{
+    background-color: #ee5352;
+    padding: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* tourism in goa */
+
+#tourism h1{
+    overflow: auto;
+    font-size: 40px;
+   text-align: center;
+   color: #ee5352;
+   position: relative;
+}
+
+.tourism-image{
+    width:33.33% ;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    margin-top: 30px;  
+    margin-bottom: 20px;
+}
+
+#tourism p{
+    font-size: 18px;
+    word-spacing: 8px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+#tourism p::first-letter{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#middle-text{
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+
+#middle-text1{
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+
+/* 55 places in goa */
+
+#places55{
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+
+#places55 h2{
+  padding-top:30px ;
+  padding-bottom: 30px;
+  color: #a10a16;
+  text-decoration: underline;
+}
+
+#img1{
+    padding-left: 70px;
+    height: 180px;
+    width: 395px;
+}
+
+#img2{
+    padding-left: 70px;
+    height: 180px;
+    width: 395px;
+}
+
+#img3{
+    padding-left: 70px;
+    height: 180px;
+    width: 395px;
+}
+
+#section70{
+    width: 44%;
+    overflow: auto;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section25{
+    width: 25%;
+    overflow: visible;
+   box-sizing: border-box;
+   display: inline-block;
+   
+}
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    display: inline;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 50%;
+    padding:5px 13px;
+    font-size: 18px;
+    font-weight:bold ;
+}
+
+.prev{
+    left: 70px;
+}
+
+.next{
+    right: 435px;
+}
+
+#section30{
+    width: 54%;
+    position:absolute;
+    top: 120px;
+    right: 190px;
+    font-size: 18px;
+    word-spacing: 8px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+/*  quick navigator  */
+
+#navigation{
+  background-color:#ee5352 ;
+  position: relative;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 3px;
+  margin-bottom: 0px;
+}
+
+#navigation  h2{
+    font-size: 30px;
+}
+
+#navigation li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#navigation li a:hover{
+    background-color: white;
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+/* footer */
+
+#footer{
+    text-align: center;
+    color: white;
+    background-color: #222f3e;
+    padding: 10px;
+    margin: 0px;
+}
+
+/* Responsive ipad pro */
+
+@media only screen and (max-width: 1024px){
+    #toll {
+        font-size: 20px;
+    }
+
+    #menu-bar ul li a {
+        font-size: 25px;
+    }
+
+    #information h1 {
+        font-size: 38px;
+    }
+
+    #information p {
+        font-size: 23px;
+        word-spacing: 10px;
+        line-height: 30px;
+    }
+
+    button {
+        font-size: 19px;  
+    }
+
+    #tourism h1 {
+        font-size: 38px;
+    }
+
+    .tourism-image {
+        padding: 0px 5px 0px 8px;
+    }
+
+    #tourism p {
+        font-size: 23px;
+        word-spacing: 10px;
+        line-height: 30px;
+    }
+
+    #middle-text {
+        font-size: 35px;
+    }
+
+    #places55 h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+
+    #section30 {
+        font-size: 23px;
+        word-spacing: 7px;
+        line-height: 25px;
+    }
+
+    #section30 {
+        width: 37%;
+    }
+
+    .next {
+        right: 58px;
+    }
+
+    #navigation h2 {
+        font-size: 35px;
+    }
+
+    #navigation li a {
+        font-size: 25px;
+    }
+}
+
+
+
+/* Responsive  ipad */
+
+@media only screen and (max-width: 768px){
+    #logo img {
+        width: 120px;
+        margin: 15px 0px;
+    }
+
+    #menu-bar{
+        margin: 0px;
+        padding-right: 20px;
+    }
+
+    #banner{
+        width: 86%;
+        margin-right: 30%;
+    }
+
+    .tourism-image {
+        padding: 0px 0px 0px 18px;
+    }
+
+    #section30 {
+        right: 130px;
+        word-spacing: 0px;
+        line-height: 22px;
+    }
+
+    #img2 {
+        padding-left: 50px;
+    }
+
+    #img3 {
+        padding-left: 50px;
+    }
+
+    #img1 {
+        padding-left: 50px;
+    }
+
+    .next {
+    right: 3px;
+   }
+
+    .prev {
+        left: 53px;
+    }
+
+    #navigation h2 {
+        text-align: center;
+    }
+
+    #navigation li a{
+        padding-left: 240px;
+    }
+
+    #navigation li{
+        list-style-type: none;
+    }
+}
+
+
+/*  Responsive mobile */
+
+@media only screen and (max-width: 500px){
+    #toll {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+
+    .fa-twitter {
+        padding: 5px 7px;
+    }
+
+    .fa-instagram {
+        padding: 5px 7px;
+    }
+
+    .fa-facebook-f {
+        padding: 5px 9px;
+    }
+
+    .fa-whatsapp {
+        padding: 5px 7px;
+    }
+
+    #logo img {
+        width: 80px;
+        margin: 8px 0px;
+    }
+
+    #menu-bar ul li {
+        padding: 6px 7px;
+    }
+
+    #menu-bar ul li a {
+        font-size: 13px;
+    }
+
+    #banner h1 {
+        font-size: 25px;
+        padding-top: 28px;
+        padding-bottom: 55px;
+    }
+    
+    #banner {
+        width: 86%;
+        height: auto;
+    }
+
+    #information h1 {
+        font-size: 28px;
+    }
+
+    #information p {
+        font-size: 14px;
+        word-spacing: 0px;
+        line-height: 20px;
+    }
+
+    #information p::first-letter{
+        font-size: 27px;
+    }
+
+    button {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    #tourism h1 {
+        font-size: 29px;
+    }
+
+    .tourism-image {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #tourism p {
+        font-size: 14px;
+        word-spacing: 0px;
+        line-height: 20px;
+    }
+
+    #middle-text {
+        font-size: 20px;
+    }
+
+    #places55 h2 {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #section70 {
+        width: 100%;
+    }
+
+    #section30 {
+        display: none;
+    }
+
+    #section25{
+        width: 100%;
+    }
+
+    #img1 {
+        padding-left: 5px;
+        width: 300px;
+    }
+
+    #img2 {
+        padding-left: 5px;
+        width: 300px;
+    }
+
+    #img3 {
+        padding-left: 5px;
+        width: 300px;
+    }
+
+    .prev {
+        left: 7px;
+    }
+
+    .next {
+        right: 60px;
+    }
+
+    #navigation h2 {
+        font-size: 25px;
+    }
+
+    #navigation li a {
+        padding-left: 50px;
+        font-size: 15px;
+        margin: 20px 0px; 
+    }
+
+    #footer {
+        padding: 3px;
+        font-size: 10px;
+    }
+    
+}
+

@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+}
+
+.uni-padding{
+    padding: 0 14%;
+}
+
+#content h2{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+#content p{
+    font-size: 19px;
+    line-height: 22px;
+    word-spacing: 17px;
+    text-align: justify;
+}
+
+#content h5{
+    font-size: 25px;
+}
+
+#content h6{
+   font-size:18px ;
+}
+
+#content ul li{
+    font-size:18px ;
+}
+
+#contact{
+    background-color: #222f3e;
+    margin-bottom: 0px;
+    padding: 25px;
+}
+
+#contact h2{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+#contact p{
+    font-size: 19px;
+    line-height: 22px;
+    word-spacing: 17px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+/*  Responsive mobile */
+
+@media only screen and (max-width: 500px){
+    .uni-padding {
+        padding: 0 8%;
+    }
+
+    #content h2 {
+        font-size: 39px;
+    }
+
+    #content p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #contact h2 {
+        font-size: 38px;
+    }
+
+    #contact p {
+        font-size: 22px;
+        line-height: 28px;
+        padding-left: 0px;
+    }
+}
+
+/* Responsive  ipad */
+
+@media only screen and (max-width: 768px){
+    .uni-padding {
+        padding: 0 9%;
+    }
+
+    #content h2 {
+        font-size: 45px;
+    }
+
+    #content p {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    #content h5 {
+        font-size: 39px;
+    }
+
+    #content h6 {
+        font-size: 30px;
+        margin: 35px;
+    }
+
+    #content ul li {
+        font-size: 28px;
+    }
+
+    #contact {
+        padding: 45px;
+    }
+
+    #contact h2 {
+        font-size: 44px;
+    }
+
+    #contact p {
+        font-size: 29px;
+        line-height: 38px;
+    }
+}
+
+/* Responsive ipad pro */
+
+@media only screen and (max-width: 1024px){
+    #content h2 {
+        font-size: 49px;
+    }
+
+    #content p {
+        font-size: 35px;
+        line-height: 37px;
+    }
+
+    #content h5 {
+        font-size: 45px;
+    }
+
+    #content h6 {
+        font-size: 34px;
+        margin: 30px;
+    }
+
+    #content ul li {
+        font-size: 32px;
+    }
+
+    #contact {
+        padding: 55px;
+    }
+
+    #contact h2 {
+        font-size: 44px;
+    }
+
+    #contact p {
+        font-size: 34px;
+        line-height: 38px;
+        padding-left: 20px;
+    }
+}
